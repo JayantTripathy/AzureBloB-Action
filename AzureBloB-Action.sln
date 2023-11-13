@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{59FC7959-1361-4B4B-B253-248C34B4D25A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2765DBD3-9D8F-4D23-BA27-A452177EC79B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorageAPI", "BlobStorageAPI\BlobStorageAPI\BlobStorageAPI.csproj", "{36F9672D-73D7-4D3F-B36B-F17E1C98213A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "NgBlobAction", "NgBlobAction\NgBlobAction.esproj", "{49275943-39FB-4952-861D-53B166D405D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F9672D-73D7-4D3F-B36B-F17E1C98213A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F9672D-73D7-4D3F-B36B-F17E1C98213A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F9672D-73D7-4D3F-B36B-F17E1C98213A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F9672D-73D7-4D3F-B36B-F17E1C98213A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49275943-39FB-4952-861D-53B166D405D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49275943-39FB-4952-861D-53B166D405D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49275943-39FB-4952-861D-53B166D405D4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{49275943-39FB-4952-861D-53B166D405D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49275943-39FB-4952-861D-53B166D405D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49275943-39FB-4952-861D-53B166D405D4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36F9672D-73D7-4D3F-B36B-F17E1C98213A} = {59FC7959-1361-4B4B-B253-248C34B4D25A}
+		{49275943-39FB-4952-861D-53B166D405D4} = {2765DBD3-9D8F-4D23-BA27-A452177EC79B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D1E60E7-11D0-4391-8F35-F6317488F406}
+	EndGlobalSection
+EndGlobal

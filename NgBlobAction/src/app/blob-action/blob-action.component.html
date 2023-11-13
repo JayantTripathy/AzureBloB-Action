@@ -1,0 +1,29 @@
+<div class="blobstorage-section">
+  <div class="row">
+    <div class="col-sm-1">
+      <i class="fa fa-plus fa-2x" style="cursor: pointer; color: darkslateblue;" (click)="addFile()"></i>
+    </div>
+    <div class="col-sm-11">
+      Click here to Add new files Store into Azure Blob
+    </div>
+  </div>
+
+  <input style="display: none;" type="file" id="fileUpload" #selectedFile [(ngModel)]="fileUpload"
+    (click)="selectedFile.value" value="" (change)="handleFileInput($event)" />
+
+  <table class="table table-striped mt-3h">
+    <tr>
+      <th class="column1">Uploaded Files</th>
+      <th class="column2" style="text-align:center;">Download</th>
+      <th class="column3" style="text-align:center;">Delete</th>
+    </tr>
+    <tr *ngFor="let file of files">
+      <td class="column1">{{ file.name }}</td>
+      <td class="column2" style="text-align:center;cursor: pointer;" (click)="downloadFile(file.name)">
+        <i class="fa fa-download"></i></td>
+      <td class="column3" style="text-align:center;" (click)="deleteFile(file.name)">
+        <i class="fa fa-trash"></i>
+      </td>
+    </tr>
+  </table>
+</div>
